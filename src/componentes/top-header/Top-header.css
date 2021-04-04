@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topHeader{
+    background: #213C79;
+}
+
+.topHeader__contenedor{
+    height: 40px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topHeader__datos{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.topHeader__datos__whatsaap{
+    background: #45AF18;
+}
+
+.fa-whatsapp{
+    color: white;
+    padding: 12px;
+}
+
+.topHeader__datos__citas{
+    text-decoration: none;
+}
+
+.topHeader__datos__whatsaap:hover{
+    background: white;
+}
+
+.topHeader__datos__whatsaap:hover .fa-whatsapp{
+    color: #45AF18;
+}
+
+.topHeader__datos__citas{
+    background: #02305B;
+    border-right: 2px solid #0D7DD7;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.topHeader__datos__citas a{
+    padding: 0 15px;
+}
+
+.fa-phone{
+    color: white;
+}
+
+.fa-mobile-alt{
+    color: white;
+}
+
+.texto-cita{
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.fa-phone:hover{
+    color: #61BFFF;
+    transition: .4s;
+}
+.fa-mobile-alt:hover{
+    color: #61BFFF;
+    transition: .4s;
+}
+
+/*redes*/
+
+.fa-facebook{
+    color: white;
+    margin-right: 20px;
+}
+.fa-instagram{
+    color: white;
+    margin-right: 20px;
+}
+.fa-twitter{
+    color: white;
+    margin-right: 20px;
+}
+.fa-youtube{
+    color: white;
+    margin-right: 20px;
+}
+.fa-linkedin-in{
+    color: white;
+    margin-right: 20px;
+}
