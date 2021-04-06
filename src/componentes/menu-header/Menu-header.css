@@ -1,25 +1,10 @@
-* {
-
-}
-
 .menu{
     padding: 0 60px;
     height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     box-shadow: 0px 0px 10px 0px #aaaaaa;
 
-}
-
-.menu__contenedor{
-    display: flex;
-    list-style: none;
-
-}
-
-.menu__contenedor__opciones{
-    margin: 30px 20px;
 }
 
 .logo{
@@ -27,11 +12,84 @@
     width: 370px;
 }
 
-.menu__contenedor__opciones a{
+.logo:hover{
+    height: 62px;
+    width: 372px;
+    transition-duration: 200ms;
+    transition-property: opacity;
+}
+
+.menu__contenedor{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu__contenedor__opciones{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+[class^="a-"]{
+    padding: 7px 20px;
     text-decoration: none;
     font-family: Poppins, sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 15px;
-    color: #02335E ;
+    color: #02335E;
 }
+
+.a-opciones i{
+    margin-left: 10px;
+}
+
+.submenu{
+    list-style:none;
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+    background: #02305B;
+    border: none;
+    display: none;
+}
+
+.sublista{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.sub-a{
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.menu__contenedor__opciones:hover .a-opciones{
+    color: grey;
+    border-bottom: 2px solid black;
+}
+
+.menu__contenedor__opciones:hover .submenu{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
