@@ -10,12 +10,13 @@
 .logo{
     height: 60px;
     width: 370px;
+    transition: 2s;
 }
 
 .logo:hover{
     height: 62px;
     width: 372px;
-    transition-duration: 200ms;
+    transition: 2s;
     transition-property: opacity;
 }
 
