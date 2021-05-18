@@ -23,7 +23,8 @@
     height: 100%;
     border-right: 1px solid white;
     border-left: 1px solid white;
-
+    transition: 2s;
+    cursor: pointer;
 }
 
 .menucitas__opciones:nth-child(1){
@@ -53,4 +54,49 @@
 
 .menucitas__opciones--a i{
     margin:0 5px;
+    transition: 1s;
 }
+
+.menucitas__opciones:hover{
+    transition: 2s;
+    background:#111111;
+
+}
+
+.menucitas__opciones:hover .menucitas__opciones--a .fa-chevron-down{
+    -webkit-transition: all 0.4s ease 0s;
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.menucitas__submenu{
+    position: absolute;
+    top:145px;
+    background: #009bdb;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: 500ms;
+}
+
+.menucitas__submenu__opciones{
+    list-style: none;
+    display: flex;
+}
+
+.menucitas__submenu__opciones__link{
+    text-decoration: none;
+    padding: 5px 0;
+    color: white;
+}
+
+.fa-user{
+    padding: 5px;
+    color: white;
+}
+
+.menucitas__opciones:hover .menucitas__submenu{
+    visibility: visible;
+}
+
