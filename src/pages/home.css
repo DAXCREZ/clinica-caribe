@@ -1,0 +1,14 @@
+.home__main{
+    display: flex;
+    justify-content: center;
+}
+
+.banneroftalomology{
+    height: 800px;
+    width: 100%;
+}
+
+.home__trademarks{
+    display: flex;
+    justify-content: space-around;
+}
